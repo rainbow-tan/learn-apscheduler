@@ -2,7 +2,7 @@ python apscheduler 定时任务的基本使用-2-date触发器的使用
 
 ## 1、前言
 
-date触发器是添加定时任务的最简单方法。date触发器只会运行一次任务，等同于UNIX的“at”命令。
+date触发器是添加定时任务的最简单方法。date触发器只会运行一次任务，等同于UNIX的“at”命令。[官网date](https://apscheduler.readthedocs.io/en/3.x/modules/triggers/date.html#module-apscheduler.triggers.date)
 
 ## 2、参数说明
 

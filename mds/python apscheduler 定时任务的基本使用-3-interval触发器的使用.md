@@ -2,7 +2,7 @@ python apscheduler 定时任务的基本使用-3-interval触发器的使用
 
 ## 1、前言
 
-interval触发器，按照一定的时间间隔运行任务。例如，每2秒运行一次任务，每分钟运行一次任务，每周运行一次任务，每5天运行一次任务。
+interval触发器，按照一定的时间间隔运行任务。例如，每2秒运行一次任务，每分钟运行一次任务，每周运行一次任务，每5天运行一次任务。[官网interval](https://apscheduler.readthedocs.io/en/3.x/modules/triggers/interval.html#module-apscheduler.triggers.interval)
 
 ## 2、参数说明
 
