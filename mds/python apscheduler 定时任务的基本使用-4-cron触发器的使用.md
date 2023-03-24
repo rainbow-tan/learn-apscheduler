@@ -35,7 +35,7 @@ cron触发器，当前时间与cron表达式匹配时，执行任务，等同于
 
 配合下图表达式使用
 
-![image-20230323150558286](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230323150558286.png)
+![image-20230323150558286](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230324111139764-590827507.png)
 
 ```python
 import datetime
