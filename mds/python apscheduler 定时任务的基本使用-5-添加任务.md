@@ -90,5 +90,26 @@ scheduler.start()
 
 ```
 
+# 2、添加任务公共参数
 
+添加任务时，我们根据触发器会添加对应的参数，除了这些参数外，有一些公共的参数，如下
 
+- func 要执行的函数
+- trigger 触发器
+- args 执行函数的参数
+- kwargs 执行函数的字典类型参数
+- id 定时任务唯一标识
+- name 任务的名称
+- misfire_grace_time 任务执行的容错时间
+  - 假设任务运行时间为10:50:00 但是系统死机了，重启系统后 现在已经是10:50:10了，如果设置了misfire_grace_time=20，则会继续运行该任务，否则不会运行该任务
+  - 一般报错Run time of job "" was missed by xxx 可以通过调大该参数解决
+  - 如果超过了任务执行时间N秒了，任务就不会运行了，但是设置misfire_grace_time 大于等于N，则会运行
+- coalesce 任务堆叠后是否只执行最后一个任务
+  - 如果任务超时了好久，且设置了misfire_grace_time ，堆积了多个任务，设置为True后，只会跑一个，否则跑多个
+- max_instances 最大运行的任务数
+- next_run_time 何时开始运行
+- jobstore 存储器
+- executor 执行器
+- replace_existing 如果ID重复,是否替换任务
+
+[github](https://github.com/rainbow-tan/learn-apscheduler)
