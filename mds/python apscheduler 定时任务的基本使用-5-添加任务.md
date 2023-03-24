@@ -109,6 +109,8 @@ scheduler.start()
 - max_instances 最大运行的任务数
 - next_run_time 何时开始运行
 - jobstore 存储器
+  - 指定存储器，可以指定多个存储器，然后添加任务时，可以通过该参数指定数据存到哪一个数据库中
+  - 可以参考【python apscheduler 定时任务的基本使用-6-sqlite数据库】的例子
 - executor 执行器
 - replace_existing 如果ID重复,是否替换任务
 
