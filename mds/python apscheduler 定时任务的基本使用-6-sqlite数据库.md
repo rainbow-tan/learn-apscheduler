@@ -4,15 +4,15 @@ python apscheduler 定时任务的基本使用-6-sqlite数据库
 
 1. 定义数据库字典
 
-   ![image-20230324153334730](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324153334730.png)
+   ![image-20230324153334730](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328104842890-1168467250.png)
 
 2. 指定调度器的存储器
 
-   ![image-20230324153346314](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324153346314.png)
+   ![image-20230324153346314](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328104843213-1432425982.png)
 
 3. 添加任务即可
 
-   ![image-20230324153400249](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324153400249.png)
+   ![image-20230324153400249](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328104843553-818270433.png)
 
 直接上代码
 
@@ -61,17 +61,17 @@ if __name__ == '__main__':
 
 运行后数据库
 
-![image-20230324152406049](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324152406049.png)
+![image-20230324152406049](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328104843914-1896369060.png)
 
 ## 2、添加任务指定不同存储器
 
 通过公共参数jobstore指定即可
 
-![image-20230324153144226](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324153144226.png)
+![image-20230324153144226](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328104844290-280840449.png)
 
 运行后保存到不同的数据库
 
-![image-20230324153042303](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324153042303.png)
+![image-20230324153042303](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328104844642-388751067.png)
 
 代码
 

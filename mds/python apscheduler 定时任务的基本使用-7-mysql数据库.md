@@ -6,11 +6,11 @@ python apscheduler 定时任务的基本使用-7-mysql数据库
 
 1. 定义数据库字典
 
-   ![image-20230324155739432](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324155739432.png)
+   ![image-20230324155739432](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328110928748-267239522.png)
 
 2. 指定调度器的存储器
 
-   ![image-20230324155748200](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324155748200.png)
+   ![image-20230324155748200](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328110929214-1382364728.png)
 
 3. 添加任务即可
 
@@ -86,6 +86,6 @@ if __name__ == '__main__':
 
 运行后数据库
 
-![image-20230324155601715](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324155601715.png)
+![image-20230324155601715](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328110929557-1529361726.png)
 
 [github](https://github.com/rainbow-tan/learn-apscheduler)

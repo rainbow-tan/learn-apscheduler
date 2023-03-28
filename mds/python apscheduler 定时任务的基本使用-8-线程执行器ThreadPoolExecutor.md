@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
 运行
 
-![image-20230324163703930](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324163703930.png)
+![image-20230324163703930](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328111919517-806946459.png)
 
 ## （2）定义使用5个线程，任务数为8个
 
@@ -134,7 +134,7 @@ if __name__ == '__main__':
 
 运行
 
-![image-20230324164025022](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230324164025022.png)
+![image-20230324164025022](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328111920089-1203602476.png)
 
 ## （3）定义使用3个线程，任务数为5个，设置misfire_grace_time=10
 
@@ -370,6 +370,6 @@ if __name__ == '__main__':
 
 运行
 
-![image-20230327193424908](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230327193424908.png)
+![image-20230327193424908](https://img2023.cnblogs.com/blog/1768648/202303/1768648-20230328111920541-1987522431.png)
 
 [github](https://github.com/rainbow-tan/learn-apscheduler)
